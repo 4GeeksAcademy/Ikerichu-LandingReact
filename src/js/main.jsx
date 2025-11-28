@@ -20,9 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className="container-fluid">
     <NavBar/>
     
-    <div className=" d-flex flex-column  justify-content-center">
+    <div className="d-flex flex-column justify-content-evenly">
     <Home/>
-    <div className="d-flex">
+    <div className="row">
     <Card 
     imagen="https://static.vecteezy.com/system/resources/thumbnails/026/717/009/small/women-meditate-yoga-psychic-women-considers-mind-and-heart-spirituality-esotericism-with-bokeh-defocused-lights-universe-generative-ai-illustration-free-photo.jpg" 
     title="Meditation" 
@@ -42,8 +42,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </div>
     
     </div>
-    <Footer/>
-    </div>
     
+    </div>
+    <Footer/>
   </React.StrictMode>,
 )
