@@ -1,11 +1,8 @@
-/* 
+.jumbotron {
+      padding: 2rem 2rem;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      background-color: lightgray;
+      border-radius: 1rem;  
+    }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
